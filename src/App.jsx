@@ -5,7 +5,7 @@ import ErrorPage from "./Router/ErrorComponent/ErrorPage"
 import Movies from "./Router/Movies/Movies"
 import MovieDetail from "./Router/Movies/MovieDetail/MovieDetail"
 import Home from "./Router/Home/Home"
-import {getAxios, movieDetail} from "./Router/Movies/API/getAxios"
+import {getAxios, movieDetail} from "./Router/Movies/API/GetAxios"
 
 function App() {
   const router = createBrowserRouter([
