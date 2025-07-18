@@ -1,0 +1,17 @@
+@media (max-width:400px) {
+    .navbar-container{
+        padding: 0 5px;
+      }
+      .navbar-header h1{
+        display: flex;
+        padding-left: 4px;
+      }
+      .navbar-header h1 a{
+        font-size: 1.3rem;
+        
+      }
+      .navbar-links{
+        width: 50%;
+        font-size: 0.7rem;
+      }
+}

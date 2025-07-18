@@ -1,0 +1,69 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+.movies-container{
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2rem;
+    column-gap: 3rem;
+    justify-items: center;
+    margin: 3.5rem auto;
+}
+.movie-card{
+    max-height: 430px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+.movie-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0.2rem 0.2rem 0.6rem rgb(0, 0, 0.3);
+}
+.movie-img{
+    width: 100%;
+    aspect-ratio: 2/3;
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+.movie-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.movie-details{
+    width: 100%;
+    text-align: center;
+}
+.movie-details h1{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.movie-details p{
+    font-size: 0.85rem;
+    margin: 0.25rem 0;
+}
+.watch-btn button{
+    margin-top: 0.7rem;
+    width: 100%;
+    padding: 0.80rem 1rem;
+    background-color: #007bff; /* blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+.watch-btn button:hover {
+    background-color: #0056b3; /* darker blue */
+}
+  

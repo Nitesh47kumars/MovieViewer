@@ -1,0 +1,154 @@
+/* Small phones: 200px – 468px */
+@media (min-width: 200px) and (max-width: 468px) {
+    .home-container {
+        position: relative;
+        overflow: hidden;
+        height: 30vh;
+    }
+    .main-content {
+        padding-left: 15px;
+        min-width: 120px;
+        z-index: 7;
+        animation: content-animation 1s ease forwards;
+    }
+
+    .main-content h1 {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+        font-weight: 900;
+    }
+
+    .main-img img {
+        height: 240px;
+        transform: translateX(-50px);
+        animation: phone-sm-animation 1s ease forwards;
+    }
+
+    .main-content button {
+        margin: 0.5rem 0;
+        font-size: 0.65rem;
+        padding: 0.4rem 0.8rem;
+        border-radius: 3px;
+    }
+}
+
+/* Mobile devices: 469px – 600px */
+@media (min-width: 469px) and (max-width: 600px) {
+    .home-container {
+        position: relative;
+        overflow: hidden;
+        height: 35vh;
+    }
+
+    .main-content {
+        padding-left: 15px;
+        min-width: 120px;
+        z-index: 7;
+        animation: content-animation 1s ease forwards;
+    }
+
+    .main-content h1 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+        font-weight: 800;
+    }
+
+    .main-img img {
+        height: 280px;
+        transform: translateX(30px);
+        animation: phone-animation 1s ease forwards;
+    }
+
+    .main-content button {
+        margin: 0.5rem 0;
+        font-size: 0.75rem;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+}
+
+/* Tablets: 601px – 990px */
+@media (min-width: 601px) and (max-width: 990px) {
+    .main-content {
+        padding-left: 20px;
+        animation: content-animation 1s ease forwards;
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+        width: 200px;
+    }
+
+    .main-img img {
+        height: 440px;
+        transform: translateX(60px);
+        animation: phone-md-animation 1s ease forwards;
+    }
+}
+
+/* Small desktops: 991px – 1200px */
+@media (min-width: 991px) and (max-width: 1200px) {
+    .main-content {
+        padding-left: 20px;
+        animation: content-animation 1s ease forwards;
+    }
+
+    .main-content h1 {
+        font-size: 2.2rem;
+        width: 250px;
+    }
+
+    .main-img img {
+        height: 460px;
+        transform: translateX(60px);
+        animation: phone-md-animation 1s ease forwards;
+    }
+}
+
+
+
+
+
+@keyframes phone-sm-animation {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(30px);
+        opacity: 1;
+    }
+}
+
+@keyframes phone-animation {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(30px);
+        opacity: 1;
+    }
+}
+
+@keyframes phone-md-animation {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(60px);
+        opacity: 1;
+    }
+}
+
+@keyframes content-animation {
+    from {
+        transform: scale(0.95) translateY(-3px);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

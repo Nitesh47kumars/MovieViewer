@@ -1,0 +1,30 @@
+@media (max-width:600px) {
+    .form-container{
+        max-width: 19rem;
+        padding: 20px;
+        border-radius: 2px;
+        margin: 03rem auto;
+    }
+    .form-header p{
+        font-size: 0.7rem;
+        margin: 0.4rem 0;
+    }
+    .main-form{
+        gap: 1rem;
+    }
+
+    .form-username label,
+    .form-email label{
+        font-size: 0.8rem;
+        padding-left: 2px;
+    }
+    .form-message label {
+        font-size: 0.9rem;
+        padding: 2px;
+    }
+    .form-submit-btn{
+        border-radius: 1px;
+        padding: 0.6rem 0;
+    }
+
+}

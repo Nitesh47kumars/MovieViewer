@@ -1,0 +1,33 @@
+@media (max-width:600px){
+    .movie-detail {
+        height: 100vh;
+        width: 100%;
+    }
+    .movie-content{
+        flex-direction: column;
+    }
+    .poster-main img {
+        width: 220px;
+        border-radius: 3px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    .details{
+        padding-left: 3px;
+    }
+    .details h1 {
+        font-size: 1.7rem;
+    }
+    
+    .details h1 span {
+        font-size: 1rem;
+    }
+    .tagline {
+        font-size: 0.7rem;
+    }
+    .plot {
+        font-size: 1rem;
+    }
+    .details button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+.form-container{
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.6);
+    max-width: 35rem;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 04rem auto;
+    background-color: white;
+}
+.form-header{
+    margin-bottom: 1rem;
+}
+.form-header p{
+    color: gray;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form-username input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(136, 136, 136);
+    padding: 6px;
+    margin: 0.5rem 0;
+}
+.form-email input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(136, 136, 136);
+    padding: 6px;
+    margin: 0.5rem 0;
+}
+input:focus{
+    border-color: black;
+}
+.form-message textarea{
+    width: 100%;
+    outline: none;
+    padding: 6px;
+    margin: 0.5rem 0;
+    resize: none;
+    overflow: auto;
+    border-radius: 2px;
+}
+.form-submit-btn{
+    background-color: rgb(0, 110, 255);
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+}
+
+input,textarea{
+    background-color: rgb(245, 245, 245);
+}
