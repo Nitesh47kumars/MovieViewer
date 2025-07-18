@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Contact, {contactData} from "./Router/Contact/Contact"
 import Layout from "./Router/Layout"
-import ErrorPage from "./Router/ErrorComponent/Errorpage"
+import ErrorPage from "./Router/ErrorComponent/ErrorPage"
 import Movies from "./Router/Movies/Movies"
 import MovieDetail from "./Router/Movies/MovieDetail/MovieDetail"
 import Home from "./Router/Home/Home"
